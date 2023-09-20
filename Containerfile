@@ -1,2 +1,2 @@
 FROM alpine:latest
-RUN apk update && apk add htop
+RUN apk update && apk add htop util-linux util-linux-misc
