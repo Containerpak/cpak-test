@@ -1,0 +1,11 @@
+{
+  "name": "cpak-test",
+  "description": "Experimenting with cpak(s)",
+  "version": "0.0.1",
+  "image": "ghcr.io/containerpak/cpak-test:main",
+  "binaries": ["/usr/bin/htop"],
+  "desktop_entries": ["/usr/share/applications/htop.desktop"],
+  "dependencies": [],
+  "future_dependencies": [],
+  "idle_time": 0
+}
