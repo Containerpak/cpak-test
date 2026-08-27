@@ -1,11 +1,19 @@
 {
+  "$schema": "https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v3.json",
+  "manifest_version": "3.0",
   "name": "cpak-test",
   "description": "Experimenting with cpak(s)",
   "version": "0.0.1",
-  "image": "ghcr.io/containerpak/cpak-test:main",
-  "binaries": ["/usr/bin/htop"],
-  "desktop_entries": ["/usr/share/applications/htop.desktop"],
+  "image": "ghcr.io/containerpak/cpak-test@sha256:7bdd5efa91eab9db82a4ec53e2e157d2703a3b6ee6f8bed5743f89ab92c1b9d5",
+  "binaries": [
+    "/usr/bin/htop"
+  ],
+  "desktop_entries": [
+    "/usr/share/applications/htop.desktop"
+  ],
   "dependencies": [],
-  "future_dependencies": [],
-  "idle_time": 0
+  "idle_time": 0,
+  "override": {
+    "filesystem": []
+  }
 }
