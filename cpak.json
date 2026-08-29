@@ -14,6 +14,32 @@
   "dependencies": [],
   "idle_time": 0,
   "override": {
-    "filesystem": []
+    "displayX11": false,
+    "socketWayland": false,
+    "socketPulseAudio": false,
+    "socketSshAgent": false,
+    "socketCups": false,
+    "socketGpgAgent": false,
+    "bluetooth": false,
+    "deviceDri": false,
+    "deviceKvm": false,
+    "deviceShm": false,
+    "deviceAlsa": false,
+    "deviceVideo": false,
+    "deviceFuse": false,
+    "deviceTun": false,
+    "deviceUsb": false,
+    "deviceSerial": false,
+    "deviceInput": false,
+    "deviceTTY": false,
+    "deviceAll": false,
+    "notification": false,
+    "openURI": false,
+    "hostApplications": false,
+    "filesystem": [],
+    "network": false,
+    "process": false,
+    "userNamespaces": false,
+    "asRoot": false
   }
 }
