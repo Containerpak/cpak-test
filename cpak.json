@@ -4,7 +4,7 @@
   "name": "cpak-test",
   "description": "Experimenting with cpak(s)",
   "version": "0.0.1",
-  "image": "ghcr.io/containerpak/cpak-test@sha256:453f1d564cd9a672bf1e8857de244588c9c2e0bc2ed3073295f9839a2fecda67",
+  "image": "ghcr.io/containerpak/cpak-test@sha256:f8fff2c2970f3bf4a8348707e5b5a1c94f56cba4056d46b1f1ca5a05937e61a8",
   "binaries": [
     "/usr/bin/htop"
   ],
